@@ -1,5 +1,6 @@
 import streamlit as st
-st.header('AIGC World')
+
+st.header('娇娇的AIGC World')
 st.subheader('First')
 st.text('Description')
 st.markdown('这是 **Markdown** 文本。')
@@ -11,5 +12,5 @@ import pandas as pd
 chart_data = pd.DataFrame(np.random.randn(50, 3), columns=['a', 'b', 'c'])
 st.line_chart(chart_data)
 
-number = st.slider('选择一个数字', 0, 100)
+number = st.slider('请选择一个数字', 0, 100)
 st.write('您选择的数字是：', number)
