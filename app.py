@@ -6,7 +6,7 @@ import pandas as pd
 st.header('上海晶焱人工智能科技有限公司')
 st.subheader('First Demo')
 st.subheader('这是一个快速前端展示！')
-st.text('Description')
+st.text('Description:本公司是一家新兴科技企业，致力于解决传统公司的数字化转型，提供各类数字化升级工作！')
 st.markdown('这是 **Markdown** 文本。用来展示图表效果')
 st.latex(r'e^{i\pi} + 1 = 0')
 st.dataframe({'列1': [1, 2, 3], '列2': [4, 5, 6]})
