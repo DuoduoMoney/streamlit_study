@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-st.header('娇娇和牛牛的AIGC World')
+# st.header('娇娇和牛牛的AIGC World')
 st.header('上海晶焱人工智能科技有限公司')
 st.subheader('First Demo')
 st.subheader('这是一个快速前端展示！')
