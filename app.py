@@ -4,6 +4,8 @@ import pandas as pd
 
 st.header('娇娇和牛牛的AIGC World')
 st.subheader('First Demo')
+st.subheader('这是一个快速前端展示！')
+st.subheader('哈哈哈')
 st.text('Description')
 st.markdown('这是 **Markdown** 文本。用来展示图表效果')
 st.latex(r'e^{i\pi} + 1 = 0')
