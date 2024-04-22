@@ -1,9 +1,9 @@
 import streamlit as st
 
 st.header('娇娇的AIGC World')
-st.subheader('First')
+st.subheader('First Demo')
 st.text('Description')
-st.markdown('这是 **Markdown** 文本。')
+st.markdown('这是 **Markdown** 文本。用来展示图标效果')
 st.latex(r'e^{i\pi} + 1 = 0')
 st.dataframe({'列1': [1, 2, 3], '列2': [4, 5, 6]})
 
