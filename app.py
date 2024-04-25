@@ -30,13 +30,14 @@ choice = st.selectbox('2.选择您的行业：', options)
 # 显示用户选择的选项
 st.write('你选择的行业是：', choice)
 
+st.write("开始你的AI之旅吧！")
 # 创建一个文本输入框，并获取用户输入的文本
 user_input = st.text_input("Q：")
 # 显示答案
 st.write("A:", user_input)
 
 
-st.write("开始你的AI之旅吧！")
+
 
 
 
