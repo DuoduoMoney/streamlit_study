@@ -1,9 +1,21 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+from PIL import Image
 
 # st.header('娇娇和牛牛的AIGC World')
 st.header('上海XXX人工智能科技有限公司')
+# 显示图片
+st.write("RAG process flow：")
+# 加载图片
+image = Image.open(r'S:\streamlit_study\figures\flow_chart.png')
+width, height = 600, 400
+image = image.resize((width, height))
+# 在Streamlit中显示图片
+st.image(image)
+# 在Streamlit中显示图片并使其居中
+#st.write(image)
+
 st.subheader('First Demo，这是一个垂直领域工作助手前端展示！')
 st.text('Description:本公司是一家新兴科技企业，致力于解决传统公司的数字化转型，提供各类数字化升级工作！')
 
@@ -35,8 +47,6 @@ st.write("开始你的AI之旅吧！")
 user_input = st.text_input("Q：")
 # 显示答案
 st.write("A:", user_input)
-
-
 
 
 
